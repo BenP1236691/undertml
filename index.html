@@ -1,58 +1,101 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Undertml by glitchninja2000</title>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>UNDERTALE</title>
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://undertale.com/images/favicon.ico">
+<style type="text/css">
+.pad1 {
+	min-width: 120px; width: 120px; min-height: 128px; height: 68px; display: inline-block;
+}
+.pad2 {
+	min-width: 127px; width: 127px; min-height: 128px; height: 68px; display: inline-block;
+}
+.flowey {
+	min-width: 88px; width: 88px; background-image: url(images/floweyBIG.png);  background-repeat: no-repeat; min-height: 121px; height: 61px; display: inline-block;
+}
+body:after{
+    display:none;
+    content: url(images/floweyBIG.png) url(images/floweymoneyeyesBIG.png) url(images/floweyhappyBIG.png) url(images/floweymoneyeyesBIG.png) url(images/floweymoneyeyesBIG2.png) url(images/floweycuteBIG.png) url(images/floweycoolBIG.png) url(images/floweywinkBIG.png);
+}
+</style>
+<script type="text/javascript">
+function floweySet(type) {
+	var sprite = document.getElementById('flowey');
+	switch(type) {
+		case 'Windows': 
+			sprite.style["background"] = 'transparent url(images/floweywinkBIG.png) no-repeat';
+			break;
+		case 'Mac': 
+			sprite.style["background"] = 'transparent url(images/floweyhappyBIG.png) no-repeat';
+			break;
+		case 'Twitter': 
+			sprite.style["background"] = 'transparent url(images/floweycoolBIG.png) no-repeat';
+			break;
+		case 'Tumblr': 
+			sprite.style["background"] = 'transparent url(images/floweycuteBIG.png) no-repeat';
+			break;
+		case 'Store': 
+			sprite.style["background"] = 'transparent url(images/floweymoneyeyesBIG.png) no-repeat';
+			break;
+		case 'KS': 
+			sprite.style["background"] = 'transparent url(images/floweymoneyeyesBIG2.png) no-repeat';
+			break;
+		default:
+			sprite.style["background"] = 'transparent url(images/floweyBIG.png) no-repeat';
+			break;
+	}
+}
+</script>
+</head>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Undertml</h1>
-        <p class="header">Undertale coded for the web!</p>
+<body bgcolor="black">
 
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/glitchninja2000/undertml/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/glitchninja2000/undertml/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/glitchninja2000/undertml">View On GitHub</a></li>
-        </ul>
+<center><img src="images/undertale_logo.png"></center>
 
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/glitchninja2000">glitchninja2000</a></p>
+<center>
+
+<a href="about.htm" onmouseover="floweySet('Windows')" onmouseout="floweySet('normal')"><img src="images/about_b.png"></a>
+<a href="demo.htm" onmouseover="floweySet('Mac')" onmouseout="floweySet('normal')"><img src="images/demo_b.png"></a>
+
+<a href="http://www.fangamer.com/collections/undertale" onmouseover="floweySet('Mac')" onmouseout="floweySet('normal')"><img src="images/merch_b.png"></a>
+......<a href="contact.htm" onmouseover="floweySet('Mac')" onmouseout="floweySet('normal')"><img src="images/contact_b.png"></a>
 
 
-      </header>
-      <section>
-        <p>The following Undertml projects are not yet ported for the web:</p>
+<br>
 
-<p><a href="https://github.com/glitchninja2000/undertml/">undertml</a></p>
+<a href="http://store.steampowered.com/app/391540" onmouseover="floweySet('Windows')" onmouseout="floweySet('normal')"><img src="images/available.png"></a><br>
+<a href="http://www.fangamer.com/collections/undertale" onmouseover="floweySet('Windows')" onmouseout="floweySet('normal')"><img src="images/available_m.png"></a>
 
-<p><a href="https://github.com/glitchninja2000/undertml-overworld/">undertml-overworld</a></p>
+<br><br>
+<iframe width="600" height="340" src="https://www.youtube.com/embed/1Hojv0m3TqA" frameborder="0" allowfullscreen></iframe>
+</center>
 
-<p><a href="https://github.com/glitchninja2000/undertml-battle/">undertml-battle</a></p>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		          <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-74746321-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
 
-  </body>
-</html>
+<br><br>
+
+<center><iframe src="https://www.humblebundle.com/widget/v2/product/undertale/Udhd7SYgds?theme=dark" width="462" height="326" style="border: none;" scrolling="no" frameborder="0"></iframe><br>
+<iframe src="https://www.humblebundle.com/widget/v2/product/undertale_soundtrack/Udhd7SYgds?theme=dark" width="456" height="328" style="border: none;" scrolling="no" frameborder="0"></iframe><br>
+<iframe src="https://www.humblebundle.com/widget/v2/product/undertale_withsoundtrack/Udhd7SYgds?theme=dark" width="462" height="442" style="border: none;" scrolling="no" frameborder="0"></iframe>
+</center>
+
+<br><br>
+
+<center><a href="troubleshoot.htm" onmouseover="floweySet('Windows')" onmouseout="floweySet('normal')"><img src="images/troubleshoot.png"></center>
+
+<br><br>
+
+<center>
+<a href="http://twitter.com/undertale" onmouseover="floweySet('Windows')" onmouseout="floweySet('normal')"><img src="images/twitterbutton.png"></a>
+<a href="http://undertale.tumblr.com" onmouseover="floweySet('Windows')" onmouseout="floweySet('normal')"><img src="images/tumblrbutton.png"></a>
+<a href="http://store.steampowered.com/app/391540" onmouseover="floweySet('Windows')" onmouseout="floweySet('normal')"><img src="images/steambutton.png"></a>
+
+
+</center>
+
+</body><!--- What are you doing? 
+Looking for secrets?
+
+Don't put your nose where it doesn't belong.
+
+Or you might learn something you DON'T like...
+
+Hee hee hee. ---><!--- Undertale and all associated characters (C) Toby Fox 2013-2015. Java by rich. ---></html>
