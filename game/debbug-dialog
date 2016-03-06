@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Flowey</title>
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="//images/favicon.ico">
+<style>
+body  {
+    background-color: black;
+}
+div.ani {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+}
+div.flowey  {
+    background-image: url("http://vignette1.wikia.nocookie.net/undertale/images/3/3b/Flowey_Talk_normal.gif/revision/latest?cb=20151202211124");
+    background-color: #000000;
+    height:102px;
+    width:90px;
+}
+</style>
+</head>
