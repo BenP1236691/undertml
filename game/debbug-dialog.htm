@@ -8,7 +8,7 @@
 body  {
     background-color: black;
 }
-div.ani {
+span.ani {
     width: 100px;
     height: 100px;
     position: relative;
@@ -18,7 +18,19 @@ div.ani {
     animation-iteration-count: 3;
     animation-direction: reverse;
 }
-div.flowey  {
+@keyframes example {
+    0%   {;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+span.flowey-concept  {
+    background:url(/sprites/flowey-ani.png) no-repeat;
+    background-position:-24px 0;
+    height: auto;
+    width:28px">
+}
+span.flowey  {
     background-image: url("http://vignette1.wikia.nocookie.net/undertale/images/3/3b/Flowey_Talk_normal.gif/revision/latest?cb=20151202211124");
     image-rendering: pixelated;
     background-color: #000000;
@@ -27,4 +39,4 @@ div.flowey  {
 }
 </style>
 </head>
-<div class=flowey></div>
+<span class=flowey-up></span>
