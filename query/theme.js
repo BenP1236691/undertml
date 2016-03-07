@@ -8,7 +8,7 @@ var link = document.getElementById("theme");
 var theme = defaulttheme
 
 // Basic Themes
-  else if (str = 'Default') {
+  if (str = 'Default') {
     theme = defaulttheme
   }
   else if (str = 'Debug') {
