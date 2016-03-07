@@ -3,7 +3,7 @@
 // Replaces the entire <body> tag with what's stored in 'txt'
 // <body> = txt
 function setBody(txt) {
-var body = document.createElement('link');
+var body = document.createElement('body');
 body.appendChild(txt)
 document.appendChild(body);
 }
