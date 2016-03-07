@@ -1,61 +1,123 @@
 // Themes the UNDERTML site pages.
 // theme = str
-var = q(str);
+var defaultheme = "dark"
+
+// Script Code
+var str = q('theme'); // Grab 'theme' query value
+var link = document.getElementById("theme"); 
+var theme = defaulttheme
 
 // Basic Themes
-  else if (q = 'Default') {
+  else if (str = 'Default') {
+    theme = defaulttheme
   }
-  else if (q = 'Debug') {
+  else if (str = 'Debug') {
+    theme = "debug"
   }
-  else if (q = 'Dark') {
+  else if (str = 'Dark') {
+    theme = "dark"
   }
-  else if (q = 'Light') {
+  else if (str = 'Light') {
+    theme = "light"
   }
-  else if (q = 'TobyFox') {
+  else if (str = 'TobyFox') {
+    theme = "TobyFox"
   }
-  else if (q = 'Dogs') {
+  else if (str = 'Dogs') {
+    theme = "dogs"
   }
 
 // Location Themes
-  else if (q = 'Ruins') {
+  else if (str = 'Ruins') {
+    theme = "ruins"
   }
-  else if (q = 'TobyFox') {
+  else if (str = 'Snowdin') {
+    theme = "snowdin"
+  }
+  else if (str = "Grillby's" || str = 'Grillbys') {
+    theme = "TobyFox"
+  }
+  else if (str = 'Waterfall') {
+    theme = "waterfall"
+  }
+  else if (str = 'Hotland') {
+    theme = "hotland"
+  }
+  else if (str = 'The Core' || str = 'TheCore' || str = 'Core') {
+    theme = "core"
+  }
+  else if (str = 'Mettaton Resort' || str = 'MTT Resort' || str = 'MTTResort') {
+    theme = "mttresort"
+  }
+  else if (str = 'True Lab' || str = 'TrueLab') {
+    theme = "truelab"
+  }
+  else if (str = 'Spider Bake Sale' || str = 'Spider Bakesale' || str = 'SpiderBakeSale') {
+    theme = "spidersale"
   }
 
-// Character Themes
-  else if (q = 'Frisk') {
+// Main Character Themes
+  else if (str = 'Frisk') {
+    theme = "frisk"
   }
-  else if (q = 'Chara') {
+  else if (str = 'Chara') {
+    theme = "chara"
   }
-  else if (q = 'Flowey') {
+  else if (str = 'Flowey') {
+    theme = "flowey"
   }
-  else if (q = 'Toriel') {
+  else if (str = 'Toriel') {
+    theme = "toriel"
   }
-  else if (q = 'Sans') {
+  else if (str = 'Sans') {
+    theme = "sans-c"
   }
-  else if (q = 'Papyrus') {
+  else if (str = 'Papyrus') {
+    theme = "papyrus"
   }
-  else if (q = 'Undyne') {
+  else if (str = 'Undyne') {
+    theme = "undyne"
   }
-  else if (q = 'Alphys') {
+  else if (str = 'Alphys') {
+    theme = "alphys"
   }
-  else if (q = 'Mettaton') {
+  else if (str = 'Mettaton') {
+    theme = "mtt"
   }
-  else if (q = 'Asgore') {
+  else if (str = 'Asgore') {
+    theme = "asgore"
   }
-  else if (q = 'TobyFox') {
+
+// Other Character Themes
+  else if (str = 'Temmie' || str = 'Tem') {
+    theme = "temmie"
+  }
+  else if (str = 'Napstablook' || str = 'Napsta' || str 'Blooky') {
+    theme = "napsta"
+  }
+  else if (str = 'Monster Kid' || str = 'MonsterKid') {
+    theme = "mkid"
+  }
+  else if (str = 'Echo Flower' || str = 'EchoFlower') {
+    theme = "ecflw"
   }
 
 // Bonus Themes
-  else if (q = 'JackSepticEye') {
+  else if (str = 'JackSepticEye') {
+    theme = "jse"
+  }  else if (str = 'Markiplier' || str = 'Markimoo') {
+    theme = "mkr"
   }
-  else if (q = 'PewDiePie') {
+  else if (str = 'PewDiePie' || str = 'Pewds') {
+    theme = "pewds"
   }
-  else if (q = 'The Game Theorist' || q = 'MatthewPatrick13') {
-  }
-  else if (q = 'TobyFox') {
+  else if (str = 'The Game Theorists' || str = 'TheGameTheorists' || str = 'Game Theory' || str = 'GameTheory' || str = 'MatthewPatrick13') {
+    theme = "gmtheory"
   }
 
 // Else Code (for errors)
   else {
   }
+
+// Exit Code
+link.href = "css/theme/"+theme+".css";
