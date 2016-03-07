@@ -1,4 +1,4 @@
-// JavaScript functions for editing html tags in the <head>
+// JavaScript functions for changing html tags in the <head>
 // Favicon URL = v
 function setfavicon(v) {
 var link = document.createElement('link');
