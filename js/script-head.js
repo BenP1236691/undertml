@@ -1,6 +1,15 @@
 // JavaScript functions for changing html tags in the <head>
+
+// Replaces the entire <head> tag with what's stored in 'txt'
+// <head> = txt
+function setHead(txt) {
+var head = document.createElement('head');
+head.appendChild(txt)
+document.appendChild(head);
+}
+// Links the shortcut icon to the url in 'v'
 // Favicon URL = v
-function setfavicon(v) {
+function setIcon(v) {
 var link = document.createElement('link');
 link.rel='shortcut icon';
 link.href=v;
