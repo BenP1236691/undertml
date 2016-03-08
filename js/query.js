@@ -6,5 +6,5 @@ function q(variable)
                var pair = vars[i].split("=");
                if(pair[0] == variable){return pair[1];}
        }
-       return(false);
+       return(err404);
 }
