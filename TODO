@@ -1,0 +1,33 @@
+================================================================
+==============================TODO==============================
+================================================================
+
+Add colored souls for favicon.ico... (http://undertale.wikia.com/wiki/List_of_Human_Souls#List_of_Humans_Souls)
+Name ico files soul-0.ico -> soul-6.ico
+
+Add 'soul' query for changing favicon, mouse pointer, and soul selector...
+
+Add sprites with ids and classes...
+
+Add 
+
+Add animations to themes...
+==============================CSS==============================
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+===============================CSS==============================
+
+
+
+================================================================
+==============================TODO==============================
+================================================================
