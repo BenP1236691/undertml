@@ -1,8 +1,36 @@
+// Add CSS or jQuery animation for spritesheet background-position
+// Spritesheet background-position animation must be instantaneous
+
+// Universal Style Attributes
 div {
  background-size:inherit
  image-rendering:pixelated
 }
-
-div.flowey {
- background:
+.overworld {
+ width:
+ height:
 }
+.battle {
+ width:
+ height:
+}
+.dialog {
+ width:
+ height:
+}
+
+// Overworld Sprites
+div#flowey {
+ background-image:
+}
+
+// Battlebox Sprites
+
+// Dialogue Sprites
+
+// Special Sprites
+
+// Other Sprites
+#bullet {
+}
+
