@@ -24,3 +24,17 @@ function floweySet(type) {
 			break;
 	}
 }
+function floweyUrl(newurl,funct) {
+	var oldurl = document.querySelector("iframe[href|=https://www.youtube.com/embed/]:first-of-type").href
+	if (newurl == 'undefined') {return}
+	else if (funct == 'iframe') {
+		document.querySelector("iframe[href|=https://www.youtube.com/embed/]:first-of-type").href = newurl;
+	else if (funct == 'iframe:evolve') {
+		document.querySelector("iframe[href|=https://www.youtube.com/embed/]:first-of-type").href = newurl;
+	}
+	else if (funct == ':iframe') {
+		window.open(newurl,"_self");
+	else {
+		window.open(newurl,"_self");
+	}
+}
