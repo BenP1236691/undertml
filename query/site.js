@@ -3,6 +3,6 @@
 var title = q('title')
 
 // scripts
-if (title != 'false') {
+if (title != 'err404') {
   document.getElementsByTagName("title")[0].innerHTML = title; 
 }
