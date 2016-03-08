@@ -1,0 +1,12 @@
+var char = q('char'); // 'default','frisk','chara','asriel','monster'
+var soulcolor = q('soulcolor'); // (css color)
+var soultype = q('soultype'); // 'default','none','human','monster','pacman'
+var haircolor = q('haircolor'); // (css color)
+var hairstyle = q('hairstyle'); // 'default','none','short','long','spiked','bun','ponytail','pigtails','cap','tophat'
+var eyecolor = q('eyecolor'); // (css color)
+var shirtcolor = q('shirtcolor'); // (css color)
+var shirtcolor2 = q('shirtcolor2'); // (css color)
+var shirtstyle = q('shirtstyle');
+var pantscolor = q('pantscolor'); // (css color)
+var shoecolor = q('shoecolor'); // (css color)
+var shoestyle = q('shoestyle'); // 'default','plain','boots','heels','cowboy'
