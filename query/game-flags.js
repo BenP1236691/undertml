@@ -16,13 +16,22 @@ var flag6 = q('flag6')
 var hardmode = q('hardmode')
 
 // Blank Flag Script (no function)
-if (flg = flg || flag = flag || flag[] = flag[]) {
+if (flg | flag | flag[] = '') {
   
 }
 
 // Flag[5] or 'fun' Scripts
-if (fun = '66' || flag5 = '66' || flag[5] = '66') {
+if (fun | flag5 | flag[5] = '66') {
   
+}
+else if (fun | flag5 | flag[5] = '2'|'3'|'4'|'5'|'6'|'7') {
+  ring('wrongnumber')
+}
+else if (fun | flag5 | flag[5] = '40'|'41'|'42'|'43'|'44'|'45') {
+  ring('sans-fridge')
+}
+else if (fun | flag5 | flag[5] = '46'|'47'|'48'|'49'|'50') {
+  ring('pizza')
 }
 
 // Flag Scripts
