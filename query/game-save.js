@@ -28,4 +28,5 @@ var song = q('song');
 var currentroom = q('currentroom');
 var saveroom = q('saveroom');
 var room = q('room');
-var time = q('time');
+var time = q('time'); // Time spent playing
+var bscotch = q('bscotch'); // 0 = unanswered, 1 = butterscotch, 2 = cinnimon
