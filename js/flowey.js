@@ -26,15 +26,23 @@ function floweySet(type) {
 }
 function floweyUrl(newurl,funct) {
 	var oldurl = document.querySelector("iframe[href|=https://www.youtube.com/embed/]:first-of-type").href
+	var qSel = document.querySelector("iframe[href|=https://www.youtube.com/embed/]:first-of-type")
 	if (newurl == 'undefined') {return}
 	else if (funct == 'iframe') {
-		document.querySelector("iframe[href|=https://www.youtube.com/embed/]:first-of-type").href = newurl;
+		qSel.href = newurl;
 	else if (funct == 'iframe:evolve') {
-		document.querySelector("iframe[href|=https://www.youtube.com/embed/]:first-of-type").href = newurl;
+		var staticTime = 1
+		var faceTime = 0
+		var laughTime = 
+		qSel.href = "/flowey/static"
+		setTimeout(function(){qSel.href = newurl;}, staticTime );
 	}
 	else if (funct == ':iframe') {
 		window.open(newurl,"_self");
 	else {
 		window.open(newurl,"_self");
 	}
+}
+function floweyUrlTime(oldurl,newurl,qSel,st,face,act) {
+	
 }
