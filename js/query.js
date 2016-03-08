@@ -8,5 +8,3 @@ function q(variable)
        }
        return(false);
 }
-
-document.getElementsByTagName("title")[0].innerHTML = q('title'); 
