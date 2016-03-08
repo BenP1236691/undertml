@@ -6,7 +6,7 @@ var defaultheme = "dark"
 var str = q('theme'); // Grab 'theme' query value
 var link = document.getElementById("theme"); 
 var theme = defaulttheme
-
+try {
 // Basic Themes
   if (str = 'Default') {
     theme = defaulttheme
@@ -118,6 +118,8 @@ var theme = defaulttheme
 // Else Code (for errors)
   else {
   }
-
+}
+// debug
+catch(err) {try {var p = document.createElement("p"); p.innerHTML = 'query/example.js'+err.message; document.getElementById("bugboxprint").appendChild(p);}}
 // Exit Code
 link.href = "css/theme/"+theme+".css";
