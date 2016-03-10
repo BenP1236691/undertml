@@ -7,10 +7,15 @@
 
 <body style="background-color:black;">
 
-<center><img src="images/undertml_logo.png" style="clip:rect(10px,50px,50px,10px)"></center>
-
+<center><img src="images/undertml_logo.png" style="clip-path:url(#clipping);"></center>
 <center>
-
+<svg>
+  <defs>
+    <clipPath id="clipping">
+      <circle cx="284" cy="213" r="213" />
+    </clipPath>
+  </defs>
+</svg>
 <a href="about" onmouseover="floweySet('Windows')" onmouseout="floweySet('normal')"><img src="images/about_b.png"></a>
 <a href="demo" onmouseover="floweySet('Mac')" onmouseout="floweySet('normal')"><img src="images/demo_b.png"></a>
 
