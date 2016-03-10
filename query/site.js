@@ -12,5 +12,9 @@ if (soul !='err404') {
   var iconURL = 'sprite/soul'+soul+'.png';
   var logoURL = 'logo/logo_undertml'+soul+'.png';
   setIcon(iconURL);
-  setImg(logoURL,'logo','siteheader');
+  var link = document.createElement('link');
+  link.rel='shortcut icon';
+  link.href=v;
+  document.getElementsByTagName('head')[0].appendChild(link);
+  $(".logo, #siteheader").attr("width",function{return iconURL});
 }
