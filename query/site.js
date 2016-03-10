@@ -7,7 +7,7 @@ var soul = q('soul')
 if (title != 'err404') {
   setTitle(title) 
 }
-if (soul != 'err404') {
+if (soul !='err404') {
   var directory = 'images';
   var soulURL = directory+'/soul'+soul+'.png';
   setIcon(soulURL);
