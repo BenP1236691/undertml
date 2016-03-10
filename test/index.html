@@ -5,5 +5,27 @@
 </head>
 <body style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAL0lEQVR42mNgYGD4jw1LSUmBMRHyVDaABI0wTCUDyNBIJQMosJlKBoymg9F0AMQAQ+QSkFgkrzAAAAAASUVORK5CYII=);">
 
+<style>.target { mask: url(#m1); }</style>
+<svg height="0">
+  <mask id="m1" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+    <linearGradient id="g" gradientUnits="objectBoundingBox" x2="0" y2="1">
+      <stop stop-color="white" offset="0"/>
+      <stop stop-color="white" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <circle cx="0.25" cy="0.25" r="0.25" id="circle" fill="white"/>
+    <rect x="0.5" y="0.2" width="0.5" height="0.8" fill="url(#g)"/>
+  </mask>
+</svg>
+<p class="target" style="background: lime;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+</p>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing
+    <b class="target">elit, sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua.</b>
+    Ut enim ad minim veniam.
+</p>
+
 </body>
 </html>
