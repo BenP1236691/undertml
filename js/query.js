@@ -8,7 +8,3 @@ function q(variable)
        }
        return('err404');
 }
-function qURL() {
-       var qText = window.location.search
-       window.open("about"+qText, "_self");    
-}
