@@ -8,7 +8,7 @@ if (title != 'err404') {
   setTitle(title)
 }
 if (soul !='err404') {
-  var directory = 'images';
+  var directory = 'sprite';
   var soulURL = directory+'/soul'+soul+'.png';
   setIcon(soulURL);
 }
