@@ -4,6 +4,9 @@
 // <body> = txt
 function setBody(txt) {
 var body = document.createElement('body');
-body.appendChild(txt)
+body.appendChild(txt);
 document.appendChild(body);
+}
+function setImg(imgURL,imgClass,imgId) {
+document.querySelectorAll("img[class="+imgClass+"][id="+imgId+"]") = imgURL
 }
