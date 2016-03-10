@@ -8,7 +8,9 @@ body.appendChild(txt);
 document.appendChild(body);
 }
 function setImg(imgURL,imgClass,imgId) {
-document.querySelectorAll("img[class="+imgClass+"][id="+imgId+"]").src = imgURL
+var byClass = document.getElementsByClassName(imgClass);
+var byId = byClass.getElementById(imgId);
+byId.src = imgURL;
 }
 function setSprite(sprURL,sprClass,sprId) {
 document.querySelectorAll("div[class="+sprClass+"][id="+sprId+"]","span[class="+sprClass+"][id="+sprId+"]").style.background-image = sprURL
