@@ -9,7 +9,8 @@ if (title != 'err404') {
   setTitle(title);
 }
 if (soul !='err404') {
-  var directory = 'sprite';
-  var soulURL = directory+'/soul'+soul+'.png';
-  setIcon(soulURL);
+  var iconURL = 'sprite/soul'+soul+'.png';
+  var logoURL = 'logo/logo_undertml'+soul+'.png';
+  setIcon(iconURL);
+  setImg(logoURL,'logo','siteheader');
 }
