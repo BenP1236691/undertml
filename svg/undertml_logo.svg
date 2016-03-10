@@ -10,8 +10,7 @@
 
 <defs>
   <clipPath id="myClip">
-    <circle cx="30" cy="30" r="20"/>
-    <circle cx="140" cy="140" r="20"/>
+    <rect width="458" height="164"/>
   </clipPath>
 </defs>
 
