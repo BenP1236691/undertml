@@ -8,3 +8,5 @@ function q(variable)
        }
        return('err404');
 }
+var ttl = window.location
+setTitle(ttl);
