@@ -1,5 +1,4 @@
-function q(variable)
-{
+function q(variable) {
        var query = window.location.search.substring(1);
        var vars = query.split("&");
        for (var i=0;i<vars.length;i++) {
@@ -8,3 +7,10 @@ function q(variable)
        }
        return('err404');
 }
+// Carry query with action
+function (thelink,thelocation) {
+       window.open(thelink+location.search,'thelocation');
+}
+
+// Carry query auto
+var x = document.getElementsByTagName("a"); var i; for (i = 0; i < x.length; i++) {x[i].href = +window.location.search;}
