@@ -8,5 +8,7 @@ function q(variable)
        }
        return('err404');
 }
-var ttl = window.location.search
-setTitle(ttl);
+function qURL() {
+       var qText = window.location.search
+       window.open("about"+qText, "_self");    
+}
