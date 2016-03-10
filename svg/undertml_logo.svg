@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg 
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+<defs>
+  <clipPath id="myClip">
+    <circle fill="#ffffff" cx="30" cy="30" r="20"/>
+    <circle fill="#000000" cx="70" cy="70" r="20"/>
+  </clipPath>
+</defs>
+
+<rect fill="#000000" x="10" y="10" width="658" height="164" clip-path="url(#myClip)"/>
+<image clip-path="url(#myClip)" xlink:href="http://glitchninja2000.github.io/undertml/images/undertml_logo.png" x="0" y="0" height="100%" width="100%"/>
+
+</svg>
