@@ -6,10 +6,10 @@ var soul = q('soul')
 
 // scripts
 if (title != 'err404') {
-  setTitle(title)
+  setTitle(title);
 }
 if (icon != 'err404') {
-  setIcon(icon)
+  setIcon(icon);
 }
 if (soul !='err404') {
   var directory = 'sprite';
