@@ -15,3 +15,8 @@ link.rel='shortcut icon';
 link.href=v;
 document.getElementsByTagName('head')[0].appendChild(link);
 }
+// Sets the <title> to the text in 'title'
+// <title> = title
+function setTitle(title) {
+document.getElementsByTagName("title")[0].innerHTML = title; 
+}
