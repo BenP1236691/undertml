@@ -13,4 +13,5 @@ function (thelink,thelocation) {
 }
 
 // Carry query auto
-var x = document.getElementsByTagName("a"); var i; for (i = 0; i < x.length; i++) {x[i].href = +window.location.search;}
+// var x = document.getElementsByTagName("a"); var i; for (i = 0; i < x.length; i++) {x[i].href = +window.location.search;}
+$("a").attr("href", +window.location.search);
