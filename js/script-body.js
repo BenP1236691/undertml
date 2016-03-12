@@ -14,3 +14,15 @@ cssQuery.src = imgURL;
 function setSprite(sprURL,sprClass,sprId) {
 document.querySelectorAll("div[class="+sprClass+"][id="+sprId+"]","span[class="+sprClass+"][id="+sprId+"]").style.background-image = sprURL
 }
+function setBodyCSS(csstxt) {
+  document.body.style = csstxt;
+}
+function setBgColor(bgcolor) {
+  document.body.style.backgroundColor = bgcolor;
+}
+function setBgImg(bgurl) {
+  document.body.style.backgroundImage = url(bgurl);
+}
+function setCursor(curlsor) {
+  document.body.style.cursor = url(curlsor),auto;
+}
